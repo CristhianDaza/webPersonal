@@ -10,6 +10,9 @@
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
     "core-js": "^3.6.4",
+    "pug": "^2.0.4",
+    "pug-loader": "^2.4.0",
+    "pug-plain-loader": "^1.0.0",
     "vue": "^2.6.11",
     "vue-router": "^3.1.6",
     "vuetify": "^2.2.11",
