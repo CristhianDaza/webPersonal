@@ -1,15 +1,19 @@
 <template lang="pug">
-  div.contenedorHero
-    hero.hero
+  div
+    div.contenedorHero
+      hero.hero
+    informacionPrincipal
 </template>
 
 <script>
 import hero from '@/components/hero.vue';
+import informacionPrincipal from '@/components/informacionPrincipal.vue';
 
 export default {
   name: 'Inicio',
   components: {
     hero,
+    informacionPrincipal,
   },
 };
 </script>
@@ -39,5 +43,11 @@ export default {
   z-index: -1;
   top: 50%;
   left: -100%;
+}
+
+@media (max-width: 750px) {
+  .hero {
+    height: 90vh;
+  }
 }
 </style>
