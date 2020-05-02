@@ -53,6 +53,10 @@
   margin: 0;
 }
 
+.menuPrincipal {
+  z-index: 10;
+}
+
 div .container {
   padding: 0;
 }
