@@ -1,8 +1,6 @@
 <template lang="pug">
   #app(dark)
-    menuPrincipal
-    v-container
-      router-view
+    router-view
 </template>
 
 <style>
@@ -24,12 +22,9 @@ a {
 </style>
 
 <script>
-import menuPrincipal from '@/components/menuPrincipal.vue';
-
 export default {
   name: 'App',
   components: {
-    menuPrincipal,
   },
 };
 </script>
