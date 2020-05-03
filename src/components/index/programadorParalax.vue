@@ -3,22 +3,10 @@
     div.paralax
 </template>
 
-<script>
-// import paralax from '@/assets/programador.png';
-
-export default {
-  data() {
-    return {
-      // imagenParlax: paralax,
-    };
-  },
-};
-</script>
-
 <style scoped>
   .contenedorParalax {
     margin-top: 200px;
-    background: url('/programador.png') fixed center;
+    background: url('/programador.png') no-repeat fixed bottom;
     height: 50vh;
     width: 100%;
   }
