@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import hero from '@/components/hero.vue';
-import informacionPrincipal from '@/components/informacionPrincipal.vue';
+import hero from '@/components/index/hero.vue';
+import informacionPrincipal from '@/components/index/informacionPrincipal.vue';
 
 export default {
   name: 'Inicio',

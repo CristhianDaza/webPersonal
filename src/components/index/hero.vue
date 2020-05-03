@@ -6,7 +6,7 @@
 
 <script>
 import menuPrincipal from '@/components/menuPrincipal.vue';
-import slider from '@/components/slider.vue';
+import slider from '@/components/index/slider.vue';
 
 export default {
   components: {
