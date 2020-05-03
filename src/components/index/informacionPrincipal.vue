@@ -41,14 +41,14 @@ img {
 .contenedorInformacion .boton {
   float: right;
   margin-top: 25px;
-  background-color: #011638 !important;
+  background-color: #C03221 !important;
   font-size: 15px;
   padding: 0 40px !important;
   transition: .3s;
 }
 
 .contenedorInformacion .boton:hover {
-  background: #C03221 !important;
+  background: #5B616A !important;
 }
 
 a {

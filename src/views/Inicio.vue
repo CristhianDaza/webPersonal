@@ -4,12 +4,16 @@
       hero.hero
     informacionPrincipal
     proyectosMovil
+    programadorParalax
+    footerInicio
 </template>
 
 <script>
 import hero from '@/components/index/hero.vue';
 import informacionPrincipal from '@/components/index/informacionPrincipal.vue';
 import proyectosMovil from '@/components/index/proyectosMovil.vue';
+import programadorParalax from '@/components/index/programadorParalax.vue';
+import footerInicio from '@/components/index/footerInicio.vue';
 
 export default {
   name: 'Inicio',
@@ -17,6 +21,8 @@ export default {
     hero,
     informacionPrincipal,
     proyectosMovil,
+    programadorParalax,
+    footerInicio,
   },
 };
 </script>
