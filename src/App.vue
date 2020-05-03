@@ -1,6 +1,7 @@
 <template lang="pug">
   #app(dark)
     router-view
+    footerPrincipal
 </template>
 
 <style>
@@ -35,9 +36,12 @@ a {
 </style>
 
 <script>
+import footerPrincipal from '@/components/footerPrincipal.vue';
+
 export default {
   name: 'App',
   components: {
+    footerPrincipal,
   },
 };
 </script>
