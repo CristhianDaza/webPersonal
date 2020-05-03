@@ -3,17 +3,20 @@
     div.contenedorHero
       hero.hero
     informacionPrincipal
+    proyectosMovil
 </template>
 
 <script>
 import hero from '@/components/index/hero.vue';
 import informacionPrincipal from '@/components/index/informacionPrincipal.vue';
+import proyectosMovil from '@/components/index/proyectosMovil.vue';
 
 export default {
   name: 'Inicio',
   components: {
     hero,
     informacionPrincipal,
+    proyectosMovil,
   },
 };
 </script>
