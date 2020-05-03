@@ -54,6 +54,59 @@ img {
 a {
   color: #E6E8E6;
 }
+@media (max-width: 768px) {
+  img {
+    width: 150px;
+    height: 50%;
+  }
+
+  .contenedorInformacion h2 {
+    font-size: 30px;
+  }
+
+  .contenedorInformacion p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .contenedor {
+    display: block;
+    margin-top: 15px;
+  }
+  .contenedorInformacion {
+    padding: 0;
+  }
+
+  .contenedorInformacion p {
+    order: 3;
+  }
+
+  .contenedorImagen {
+    order: 2;
+  }
+
+  .contenedor img {
+    float: right;
+  }
+
+  .contenedorInformacion h2 {
+    order: 1;
+    margin: 25px 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .contenedor {
+    display: block;
+    flex-direction: column;
+  }
+  .contenedor img {
+    float: none;
+    width: 100%;
+  }
+}
 
 </style>
 
